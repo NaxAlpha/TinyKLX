@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TinyKLX", "TinyKLX\TinyKLX.vbproj", "{15DE5981-12DC-4196-8211-DEA6EF69F366}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Core", "Core\Core.shproj", "{161F69A7-CEE5-4146-85B1-84DDF884BD01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{A3177A26-C4AD-44A5-A475-13DC318F1069}"
+	ProjectSection(SolutionItems) = preProject
+		GUIDE.txt = GUIDE.txt
+		LICENCE.txt = LICENCE.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{C818DDFC-1D19-4BB3-9AB5-FAFCDCC071FF}"
+	ProjectSection(SolutionItems) = preProject
+		prebuild.ps1 = prebuild.ps1
+		settings.ini = settings.ini
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Core\Core.projitems*{15de5981-12dc-4196-8211-dea6ef69f366}*SharedItemsImports = 4
+		Core\Core.projitems*{161f69a7-cee5-4146-85b1-84ddf884bd01}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15DE5981-12DC-4196-8211-DEA6EF69F366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15DE5981-12DC-4196-8211-DEA6EF69F366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15DE5981-12DC-4196-8211-DEA6EF69F366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15DE5981-12DC-4196-8211-DEA6EF69F366}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

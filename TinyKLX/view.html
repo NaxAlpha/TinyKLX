@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" ng-app="TinyKLX">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+</head>
+<body ng-controller="ViewController">
+	<div class="container">
+		<div class="row" id="data">
+			<h1 class="text-danger">Key Logger Log</h1>
+			<did ng-repeat="x in data">
+				<h2 class="text-success">{{$index}}) {{x.type}} <small class="text-primary">{{x.time}}</small></h2>
+				<div>
+					<img class="col-xs-12 col-md-6 thumbnail" src="data:image/jpeg;base64,{{x.img}}" />
+					<pre class="col-xs-12 col-md-6 text-warning">{{x.txt}}</pre>
+				</div>
+				<hr style="clear:both" />
+			</did>
+		</div>
+	</div>
+	<script id="renderer">
+		x = [
+		//===SPLIT_ME===\\
+		]
+		var app = angular.module('TinyKLX', []);
+		app.controller('ViewController', function ($scope) {
+			$scope.data = x;
+		});
+		document.getElementById('renderer').innerHTML = '';
+	</script>
+</body>
+</html>

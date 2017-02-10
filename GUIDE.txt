@@ -1,0 +1,44 @@
+Guide:
+
+	This guide will help you to setup your keylogger in testing environment.
+	Please note that, any illegal use of this software is responsibility of
+	its user as stated in LICENCE.txt
+
+Requirements:
+
+	It requires .Net Framework 4.0, so all the requirements for .Net 4.0
+	also apply to it. Windows XP may be supported with .Net installed on
+	it. Windows 7 and onward it works better. Windows 10 has been tested.
+
+Email Settings:
+
+	Since logs are sent to your email account, you must enable IMAX for your
+	email account.
+
+	http://www.howtogeek.com/174837/how-to-add-your-gmail-account-to-outlook-2013-using-imap/
+
+	Also Gmail has strict security, to remove security you must "Turn On Less
+	Secure Apps"
+
+	https://support.google.com/accounts/answer/6010255?hl=en
+
+	Sometimes, timezone may be an issue or two-step verification, There may 
+	be captcha enabled, follow the link to disable captcha.
+
+	https://accounts.google.com/displayunlockcaptcha
+
+Features:
+
+	Provides you image thumbnails of 480p along with text (keys pressed) in
+	GZipped HTML format.
+
+	[Image Thumbnails are Bonus features not available in other keyloggers]
+
+	Images/Keys are captured only when event occurs, so if system is idle
+	for long time, you won't get continuous feed of system.
+
+	VirusTotal detection ratio is less than 10%. Also it contains basic
+	persistance settings to remain on target after system reboot.
+
+	Check report.png for output format.
+	
