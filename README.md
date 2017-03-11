@@ -1,7 +1,10 @@
 # TinyKLX
 A sample spyware written in VB.NET
+
 #### It is just a proof of existance of Visual Basic .Net users.
+
 ## Customize
+
 To Build it for your own testing, follow these steps
 * Clone Solution
 * Edit Config.vb file according to your requirements
@@ -9,7 +12,9 @@ To Build it for your own testing, follow these steps
 * Build Solution
 * Use [ConfuserEx](https://github.com/yck1509/ConfuserEx) CLI with TinyKLX.crproj to obfuscate your app
 * Finally your app will be ready to use
+
 ## Mechanism
+
 This malware uses classic malware techniques to persist.
 * It is built against .Net making machine code much complex.
 * Since it is confused with ConfuserEx, hiding flow and data, making it almost undetectable.
